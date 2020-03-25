@@ -1,0 +1,19 @@
+name: "Continuous Integration"
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use oxr463/setup-vagrant
+      uses: ./
+      with:
+        exec: |
+          vagrant init -m hashicorp/bionic64 && \
+          vagrant up
