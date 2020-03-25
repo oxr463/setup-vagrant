@@ -1,0 +1,16 @@
+name: "Setup Vagrant"
+description: "Setup your GitHub Actions workflow with HashiCorp Vagrant."
+inputs:
+  exec:
+    description: "HashiCorp Vagrant command to execute"
+    required: true
+author: "oxr463"
+branding:
+  color: black
+  icon: cpu
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.exec }}
