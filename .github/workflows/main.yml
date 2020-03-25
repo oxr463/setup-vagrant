@@ -15,5 +15,6 @@ jobs:
       uses: ./
       with:
         exec: |
+          VBoxManage --version && \
           vagrant init -m hashicorp/bionic64 && \
           vagrant up
