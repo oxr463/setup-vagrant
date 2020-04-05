@@ -20,7 +20,7 @@ Based on [oxr463/setup-cordova](https://github.com/oxr463/setup-cordova).
 
 ## License
 
-SPDX: [MIT](LICENSE)
+SPDX-License-Identifier: [MIT](LICENSE)
 
 ## Reference
 
