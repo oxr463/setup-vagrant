@@ -1,4 +1,4 @@
-name: "Continuous Integration"
+name: "Build"
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Use oxr463/setup-vagrant
+    - name: Use rkialashaki/setup-vagrant
       uses: ./
       with:
         exec: |
