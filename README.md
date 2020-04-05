@@ -7,8 +7,8 @@ Setup your GitHub Actions workflow with HashiCorp Vagrant.
 ## Example
 
 ```yaml
-- name: Use oxr463/setup-vagrant
-  uses: oxr463/setup-vagrant@0.0.1
+- name: Use rkialashaki/setup-vagrant
+  uses: rkialashaki/setup-vagrant@0.0.1
   with:
     exec: |
       vagrant up
@@ -16,7 +16,7 @@ Setup your GitHub Actions workflow with HashiCorp Vagrant.
 
 ## Acknowledgement
 
-Based on [oxr463/setup-cordova](https://github.com/oxr463/setup-cordova).
+Based on [oxr463/setup-vagrant](https://github.com/oxr463/setup-vagrant).
 
 ## License
 
