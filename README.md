@@ -1,4 +1,4 @@
-**Per [this comment on actions/virtual-environments#183](https://github.com/actions/virtual-environments/issues/183#issuecomment-610723516), nested virtualization is not supported by GitHub Actions for Linux** 
+**Per [this comment on actions/virtual-environments#183](https://github.com/actions/virtual-environments/issues/183#issuecomment-610723516), nested virtualization for Linux is not supported by GitHub Actions** 
 
 ## setup-vagrant
 
