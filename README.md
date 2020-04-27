@@ -1,3 +1,5 @@
+**Per [this comment on actions/virtual-environments#183](https://github.com/actions/virtual-environments/issues/183#issuecomment-610723516), nested virtualization is not supported by GitHub Actions for Linux** 
+
 ## setup-vagrant
 
 [![Continuous Integration](https://github.com/oxr463/setup-vagrant/workflows/Continuous%20Integration/badge.svg)](https://github.com/oxr463/setup-vagrant/actions)
